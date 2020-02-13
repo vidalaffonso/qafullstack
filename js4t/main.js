@@ -1,23 +1,19 @@
-var welcome = "Hello Javascript - Automação Full Stack from QA Ninja"
-document.getElementById("welcome").append(welcome)
-console.log(welcome)
 
-var avengers = ['Homem de ferro', 'Capitão América', 'Thor']
- console.log(avengers)
- avengers.push('Hulk')
 
- console.log(avengers)
- avengers.push('Homem Aranha')
-//  avengers.pop(); //pop remove o último registro do meu array
-//  avengers.shift(); //shift remove o primeiro registro do seu array
+function welcome(){
+    var welcome = "Hello Javascript - Automação Full Stack from QA Ninja"
+    document.getElementById("welcome").append(welcome)
+    console.log(welcome)
+}
 
-var indice = avengers.indexOf('Homem Aranha')
-avengers.splice(indice)
-avengers.push('Viuva Negra')
-avengers.push('Gaviao Arqueiro')
- console.log(avengers)
+welcome();
 
- var newAvengers = ['Homem aranha', 'Capitâ Marvel', 'Pantera Negra']
+// function soma(n1, n2) {
+    
+//     return n1 + n2;
+//     //console.log(n1 +n2)
+// }
+// console.log(soma(15,25));
 
- var result = avengers.concat(newAvengers)
- console.log(result)
+
+
